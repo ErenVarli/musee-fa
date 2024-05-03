@@ -1,0 +1,70 @@
+/* MON CSS */
+form {
+    margin: 0 auto;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.block {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+.block div {
+    margin: 5px;
+    float: right;
+}
+
+.margeFormulaire {
+    margin: auto;
+    margin-top: 2em;
+}
+
+.margeFormulaire p {
+    margin-top: 8em;
+    width: 670px;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    margin-top: 1em;
+}
+
+.boutonsPageReservation {
+    display: flex;
+    flex-wrap: nowrap;
+
+    margin: auto;
+}
+
+.GestionErreur h1 {
+    color: red;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.GestionErreur {
+    position: relative;
+    top: 15em;
+    text-align: center;
+}
+
+.block {
+}
+
+.classHolder {
+
+}
+
+.blockDiv {
+    align-items: center;
+height: auto;
+
+}
+.blockDiv div {
+
+margin: 0;
+}
