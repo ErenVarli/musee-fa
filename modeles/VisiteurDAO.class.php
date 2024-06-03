@@ -13,23 +13,23 @@ class VisiteurDAO extends Base
     {
         switch ($role) {
             case "create":
-                $login = "Id_create";
-                $mdp = "pswd";
+                $login = "evarli_fa_create";
+                $mdp = "b7x9SRf775AtBy";
                 break;
 
             case "read":
-                $login = "id_read";
-                $mdp = "pswd";
+                $login = "evarli_fa_read";
+                $mdp = "92wXuPvD72b8qM";
                 break;
 
             case "update":
-                $login = "id_update";
-                $mdp = "pswd";
+                $login = "evarli_fa_update";
+                $mdp = "ydD6Z3zTYp597h";
                 break;
 
             case "delete":
-                $login = "id_delete";
-                $mdp = "pswd";
+                $login = "evarli_fa_delete";
+                $mdp = "yz36Yp9hT7Dd5Z";
                 break;
         }
         $this->setConnexionBase($login, $mdp);
@@ -85,9 +85,6 @@ class VisiteurDAO extends Base
         $resultatDeLaRequete = null;
         return $resultat;
     }
-
-
-
 }
 
 
