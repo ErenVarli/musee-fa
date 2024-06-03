@@ -20,13 +20,12 @@ class Base {
     */
     protected function setConnexionBase(string $user, string $mdp) {         
 	try{
-            $serveurBdDistant = '194.199.35.4'; // base distante - serveur SGBD domaine SIO
+            $serveurBdDistant = 'localhost'; // Hote 
 
-            $nomBdDistante = "2024_varli_bddprojetfa";
+            $nomBdDistante = "projetsitefa"; //Base
             $this->db = new PDO("mysql:host=".$serveurBdDistant.";dbname=".$nomBdDistante,$user,$mdp);
 
             $this->db->query("SET CHARACTER SET utf8");
-           //echo "<br/>connexion réussie.<br/>";
 	}
 	catch ( PDOException $erreur){
             die("Erreur de connexion à la base de données ".$erreur->getMessage());
